@@ -457,7 +457,7 @@ export class UserLoginRequest extends TimestampMixin(Model) {
   }
 
   static async login(accessToken: string): Promise<User | null> {
-    await this.deleteExpired();
+    // await this.deleteExpired();
     const request = await UserLoginRequest.findByAccessToken(accessToken);
     if (request != null) {
       return User.login(request.email!);

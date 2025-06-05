@@ -3,8 +3,8 @@ services:
     build:
       dockerfile: ./Dockerfile
     volumes:
-      - /path/to/data_dir:~/.local/state/keybr
-      - /path/to/data_dir/.env:/etc/keybr/env
+      - ./data_dir/:/etc/keybr
     ports:
-      - 30044:3000
+      - '3333:3333'
+      - '3334:3334'
     restart: unless-stopped
