@@ -1,0 +1,11 @@
+{
+  "lesson.capitals": 0.05,
+  "lesson.code.syntax": "rust",
+  "lesson.guided.alphabetSize": 0.01,
+  "lesson.guided.naturalWords": false,
+  "lesson.length": 0.01,
+  "lesson.punctuators": 0.05,
+  "lesson.type": "code",
+  "textDisplay.caretMovementStyle": "jumping",
+  "textDisplay.whitespaceStyle": "space"
+}

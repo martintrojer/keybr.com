@@ -1,0 +1,14 @@
+APP_URL=http://bubba:3333/
+SERVER_PORT=3333
+SERVER_PORT_WS=3334
+COOKIE_DOMAIN=bubba
+COOKIE_SECURE=false
+DATA_DIR=./data_dir/state
+
+DATABASE_CLIENT=sqlite
+DATABASE_FILENAME=./data_dir/state/database.sqlite
+
+MAIL_DOMAIN=localhost
+MAIL_KEY=
+MAIL_FROM_ADDRESS=user@localhost
+MAIL_FROM_NAME=user

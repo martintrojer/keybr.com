@@ -1,4 +1,4 @@
-FROM node:22
+FROM node:24
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app
@@ -10,9 +10,9 @@ COPY . .
 RUN npm install
 
 # Compile monorepo and build bundle
-RUN npm run compile && npm run build
+RUN npm run build
 
 # Expose the application's default port
-EXPOSE 3000
+EXPOSE 3333
 
-CMD ["npm", "run", "start-docker"]
+CMD ["npm", "run", "start"]
